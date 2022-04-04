@@ -13,7 +13,7 @@ super + control + {h,j,k,l}
 super + h
 	spawn emacsclient -c -a 'emacs'
 super + s; {h,j,k,l}
-	herbstclient split {left0.5,bottom0.5,top0.5,right0.5}
+	herbstclient split {left 0.5,bottom 0.5,top 0.5,right 0.5}
 
 super + d
 	herbstclient spawn dmenu_run
