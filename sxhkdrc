@@ -1,0 +1,27 @@
+super + {h,j,k,l}
+	herbstclient focus {left,down,up,right}
+super + shift + {h,j,k,l}
+	herbstclient shift {left,down,up,right}
+super + control + {h,j,k,l}
+	herbstclient resize {left 0.02,down 0.02,up 0.02,right 0.02}
+
+#super + u
+#	herbstclient split bottom 0.5
+#super + o
+#	herbstclient split right 0.5
+
+super + h
+	spawn emacsclient -c -a 'emacs'
+super + s; {h,j,k,l}
+	herbstclient split {left0.5,bottom0.5,top0.5,right0.5}
+
+super + d
+	herbstclient spawn dmenu_run
+super + e 
+	herbstclient quit
+super + r 
+	herbstclient reload
+super + q 
+	herbstclient close
+super + Return 
+	herbstclient spawn st
