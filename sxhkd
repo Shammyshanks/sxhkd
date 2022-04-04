@@ -9,3 +9,6 @@ super + u
 	split bottom 0.5
 super + o
 	split top 0.5
+
+super + h
+	spawn emacsclient -c -a 'emacs'
