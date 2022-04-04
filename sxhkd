@@ -1,0 +1,11 @@
+super + {h,j,k,l}
+	focus {left,down,up,right}
+super + shift + {h,j,k,l}
+	shift {left,down,up,right}
+super + control + {h,j,k,l}
+	resize {left +$resizestep,down +$resizestep,up +$resizestep,right +$resizestep}
+
+super + u
+	split bottom 0.5
+super + o
+	split top 0.5
