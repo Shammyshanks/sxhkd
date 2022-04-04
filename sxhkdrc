@@ -19,9 +19,12 @@ super + d
 	herbstclient spawn dmenu_run
 super + e 
 	herbstclient quit
-super + r 
+super + shift + r 
 	herbstclient reload
+super + r 
+	herbstclient remove
 super + q 
 	herbstclient close
 super + Return 
 	herbstclient spawn st
+
