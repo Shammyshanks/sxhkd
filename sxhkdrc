@@ -19,7 +19,7 @@ super + d
 super + shift + e 
 	herbstclient quit
 super + e
-	spawn emacsclient -c -a 'emacs'
+	herbstclient spawn emacsclient -c -a 'emacs'
 super + shift + r 
 	herbstclient reload
 super + r 
