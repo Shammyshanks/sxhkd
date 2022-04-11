@@ -29,7 +29,7 @@ super + q
 super + Return 
 	herbstclient spawn st
 
-super + l
+super + n
 	herbstclient cycle_value always_show_frame 0 1
-super + p 
+super + m
 	herbstclient cycle_value frame_normal_opacity 0 40
