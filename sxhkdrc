@@ -11,7 +11,7 @@ super + control + {h,j,k,l}
 #	herbstclient split right 0.5
 
 
-super + F12; {h,j,k,l}
+super + s; {h,j,k,l}
 	herbstclient split {left 0.5,bottom 0.5,top 0.5,right 0.5}
 
 super + d
