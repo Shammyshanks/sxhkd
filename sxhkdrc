@@ -1,5 +1,7 @@
 super + {h,j,k,l}
 	herbstclient focus {left,down,up,right}
+#super + alt + {h,j,k,l}
+#	herbstclient focus -e {left,down,up,right}	
 super + shift + {h,j,k,l}
 	herbstclient shift {left,down,up,right}
 super + control + {h,j,k,l}
@@ -30,6 +32,7 @@ super + Return
 	herbstclient spawn st
 
 super + n
-	herbstclient cycle_value always_show_frame 0 1
+	herbstclient cycle_value always_show_frame {0,1}
 super + m
-	herbstclient cycle_value frame_normal_opacity 0 40
+	herbstclient cycle_value frame_normal_opacity {0,40,80,100}
+
